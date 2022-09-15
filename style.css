@@ -1,0 +1,45 @@
+body {
+    background-color: bisque;
+    font-family: sans-serif;
+}
+
+.topo {
+    background-color: lightsteelblue;
+    color: bisque;
+    text-align: center;
+}
+
+#foto-de-beatriz {
+    border-radius: 50%;
+    border: bisque 5px solid;
+}
+
+.menu {
+    line-height: 30px;
+}
+
+#descricao {
+    color: darkgoldenrod;
+}
+
+p {
+    font-size: 20px;
+}
+
+#habilidades {
+    color: navy;
+}
+
+.bloco-habilidades {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    color: darkblue;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 20px 50px;
+}

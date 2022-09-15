@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,18 @@
     <link rel="stylesheet" href="./style.css">
     <title>Portifólio - Beatriz</title>
 </head>
+
 <body>
-    <h1>Beatriz Eduardo Vago</h1>
 
-    <ul>
-        <li><a href="#foto-de-beatriz">Foto</a></li>
-        <li><a href="#descricao">Descrição</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-    </ul>
-
-    <img id="foto-de-beatriz" src="./foto.jpeg" alt="Foto de uma mulher de óculos e cabelo cacheado" width="300px">
+    <div class="topo">
+        <h1>Beatriz Eduardo Vago</h1>
+        <img id="foto-de-beatriz" src="./foto.jpeg" alt="Foto de uma mulher de óculos e cabelo cacheado" width="300px">
+        <ul class="menu">
+            <li><a href="#foto-de-beatriz">Foto</a></li>
+            <li><a href="#descricao">Descrição</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+        </ul>
+    </div>
 
     <h3 id="descricao">Descrição: </h3>
     <p>Sou brasileira, nasci e sempre morei na cidade de Serra no Espírito Santo, mas atualmente moro em Lisboa, Portugal. 
@@ -28,20 +31,29 @@
     </p>
 
     <h3 id="habilidades">Lista de habilidades:</h3>
-    <ul>
-        <h4>Hard Skills:</h4>
-        <li>Unix</li>
-        <li>Git/<a href="https://github.com/biavago">GitHub</a></li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-    </ul>
-    <ul>
-        <h4>Soft Skills:</h4>
-        <li>Comunicação</li>
-        <li>Organização</li>
-        <li>Adaptabilidade</li>
-        <li>Flexibilidade</li>
-    </ul>
+    
+    <div class="bloco-habilidades">     
+        <div class="skills">
+            <h4>Hard Skills:</h4>
+            <ul>
+                <li>Unix</li>
+                <li>Git/<a href="https://github.com/biavago">GitHub</a></li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+            </ul>
+        </div>
+        
+        <div class="skills">
+            <h4>Soft Skills:</h4>
+            <ul>
+                <li>Comunicação</li>
+                <li>Organização</li>
+                <li>Adaptabilidade</li>
+                <li>Flexibilidade</li>
+            </ul>
+        </div>
+    </div>
+
 </body>
 </html>
